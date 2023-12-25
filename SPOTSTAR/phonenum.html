@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forget password page</title>
+
+    <style>
+      .main-div {
+        display: flex;
+        justify-content: center;
+        padding: 100px;
+        
+      }
+      .head-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 80px;
+        background-color: #8c9befd7;
+        border-radius: 8px;
+        width: 430px;
+       
+      }
+      .h1 {
+        color: black;
+      }
+      input{
+        border-radius: 8px;
+      }
+      .num-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        border-radius: 12px;
+      }
+      .otp-div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+      }
+      .snd-otp {
+        background-color: violet;
+        color: white;
+        font-size: 18px;
+        border-color: aqua;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body style="background-color: violet">
+    <div class="main-div">
+      <form action="">
+        <div class="head-div">
+          <h1 class="h1">PHONE NUMBER</h1>
+
+          <div class="num-div">
+            <input type="number" maxlength="10" minlength="10" />
+          </div>
+          <div class="otp-div">
+           <button class="snd-otp" > <a href="http://127.0.0.1:5501/SPOTSTAR/otpverification.html">SEND OTP</a></button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

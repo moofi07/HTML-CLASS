@@ -1,0 +1,84 @@
+body,h1{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background:url(/SPOTSTAR/imagefolder/walpaper2.jpg)
+
+}
+.div{
+   
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;
+}
+.login-form{
+    background-color: #0a3857;
+    border-radius: 8px;
+    width: 430px;
+   padding-top: 18px;
+}
+#logo{
+    color: rgb(157, 29, 157);
+    font-size: 55px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.first-login{
+   padding: 15px;
+   justify-content: space-between;
+   display: flex;
+   flex-wrap: wrap;
+}
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.full-width{
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+.btn-div{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.login-btn{
+    background-color: violet;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1;
+    border-radius: 5px;
+    border-color: rgb(0, 255, 255);
+}
+.pass-div{
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    justify-content: center;
+}
+.sign-div{
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    justify-content: center;
+
+}
+.sign-up{
+    font-size: 15px;
+    background-color: violet;
+    color: white;
+    font-weight: 500;
+    border: 1;
+    border-color: rgb(16, 241, 166);
+    padding-right: 5px;
+
+}
+

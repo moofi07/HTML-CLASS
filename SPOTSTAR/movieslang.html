@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Movies Language</title>
+
+    <style>
+        .div{
+           
+            padding: 15px 0;
+            width: 50%;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            margin: 300px;
+            border-radius: 12px;
+            border: 3px solid;
+            border-color: violet;
+        }
+        .input-div{
+            display: flex;
+            justify-content: center;
+            padding: 50px;
+        }
+        input{
+            width: auto;
+            height: 20px;
+            border-radius: 12px;
+        }
+        .sel-div{
+            padding: 20px;
+            font-size: 23px;
+            font-weight:300;
+        }
+        .opt{
+            background-color: violet;
+            width: 100%;
+        }
+    </style>
+</head>
+<body style="background:url(/SPOTSTAR/imagefolder/color\ walpaper.jpg)">
+    <div class="div">
+        <form action="">
+            <div class="input-div"><input type="text" placeholder="Search languages">
+            <button style="background-color: violet;">Search</button></div>
+            <div class="sel-div">
+                <label for="" style="color: aqua;">LANGUAGES</label>
+                <select name="" id="" class="opt" onchange="window.open(this.value)">
+
+                   
+                    <option value="http://127.0.0.1:5501/SPOTSTAR/movietype.html">Tamil</option>
+                    <option value="" selected disabled>English</option>
+                    <option value="" selected disabled>Telungu</option>
+                    <option value="" selected disabled>Malayalam</option>
+                    <option value="" selected disabled>Hindi</option>
+                    <option value="" selected disabled>--Select--</option>
+                </select>
+                
+             
+            </div>
+        </form>
+    </div>
+</body>
+</html>

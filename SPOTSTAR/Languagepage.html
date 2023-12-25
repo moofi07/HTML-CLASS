@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> song Language choosing page</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+       background-color: orchid;
+      }
+      .main-div {
+        display: flex;
+        justify-content: center;
+        padding: 80px;
+        border-radius: 12px;
+      }
+      input {
+        width: 50%;
+        border-radius: 12px;
+      }
+
+      .lang {
+        color: rgb(17, 93, 93);
+        display: flex;
+        justify-content: center;
+      }
+      .lang-div {
+        display: flex;
+        padding: 10px;
+        background-color: rgb(17, 10, 17);
+        justify-content: center;
+      }
+      .tamil{
+        padding: 5px;
+        margin: 8px;
+        flex-grow: 1;
+      
+      }
+      .english{
+        padding: 5px;
+        margin: 8px;
+        flex-grow: 2;
+      }
+      .hindi{
+        padding: 5px;
+        margin: 8px;
+        flex-grow: 3;
+      }
+      .director{
+        display: flex;
+        justify-content: center;
+        color: rgb(17, 93, 93);
+      }
+     .table{
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+     }
+     .singer{
+        display: flex;
+        justify-content: center;
+        color: rgb(17, 93, 93);
+        
+     }
+     .singer-table{
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+       
+     }
+
+    </style>
+  </head>
+  <body>
+    <div>
+      <div>
+        <form action="">
+          <div class="main-div">
+            <input type="text" placeholder="Search" />
+            <button style="background-color: rgb(161, 52, 161)">SEARCH</button>
+          </div>
+          <div class="lang">
+            <h1 >LANGUAGES</h1>
+          </div>
+         
+          
+            <div class="lang-div">
+            <div
+              style="
+                background-color: rgb(8, 48, 101);
+                width: 20%;
+                text-align: center;
+                color: white;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"  >
+               <a href="http://127.0.0.1:5501/SPOTSTAR/songposter.html"> <h2 class="tamil" style="color: white;">TAMIL</h2></a>
+            </div>
+            <div
+              style="
+                background-color: rgb(89, 18, 89);
+                width: 20%;
+                text-align: center;
+                color: white;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; "  >
+              <h2 class="english">ENGLISH</h2>
+            </div>
+            <div
+              style="
+                background-color: rgb(29, 152, 150);
+                width: 20%;
+                text-align: center;
+                color: white;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" >
+              <h2 class="hindi">HINDI</h2>
+            </div>
+          </div>
+
+          <div >
+            <h1 class="director">MUSIC DIRECTORS</h1> 
+            <table class="table">
+                <tr><td>
+            <div class="img-div">
+                <div class="Ar">
+                  <a href="http://127.0.0.1:5501/SPOTSTAR/ArRahman.html">
+              <img
+                src="/SPOTSTAR/imagefolder/Ar rahman.webp"
+                alt=""
+                width="200"
+                height="200" style="border: 10px solid aqua; border-radius: 19px;"/></a>
+              <h3>AR RAHMAN HITS</h3>
+            </div>
+        </td>
+        <td><td></td></td>
+        <td>
+        </div>
+            <div>
+              <a href="http://127.0.0.1:5501/SPOTSTAR/GVprakashsong.html">
+              <img
+                src="/SPOTSTAR/imagefolder/Gv prakash.png"
+                alt=""
+                width="200"
+                height="200" style="border: 10px solid aqua; border-radius: 19px;"/></a>
+               <h3>GV PRAKASH</h3>
+            </div>
+        </td>
+        <td></td><td></td>
+        <td>
+            <div>
+              <a href="http://127.0.0.1:5501/SPOTSTAR/Yuvansongs.html">
+              <img
+                src="/SPOTSTAR/imagefolder/uvan.jpg"
+                alt=""
+                width="200"
+                height="200" style="border: 10px solid aqua; border-radius: 19px;"/></a>
+              <h3>UVAN DRUGS</h3></div></td>
+            </tr>
+            </table>
+          </div>
+          <div>
+            <h1 class="singer"> PLAYBACK SINGER</h1>
+       
+          
+          <table class="singer-table">
+<tr>
+    <td>
+        <img src="/SPOTSTAR/imagefolder/anirudh-ravichander.jpg" alt="" width="200" height="200" style="border: 10px solid rgb(91, 9, 91); border-radius: 19px;">
+        <h3>ANIRUTH SONGS</h3>
+    </td><td><td></td></td><td></td>
+    <td>
+        <img src="/SPOTSTAR/imagefolder/sid sriram.jpg" alt="" width="200" height="200" style="border: 10px solid rgb(109, 15, 109); border-radius: 19px;">
+        <h3>SID SRIRAM</h3>
+    </td><td><td><td></td></td></td>
+    <td>
+        <img src="/SPOTSTAR/imagefolder/shreya-ghoshal.jpg" alt="" width="200" height="200"  style="border: 10px solid rgb(86, 11, 86); border-radius: 19px; justify-content: space-around;">
+        <h3>SHREYA_GOSHAL SONGS</h3>
+    </td>
+   
+</tr>
+
+          </table>
+        </div>
+        </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
